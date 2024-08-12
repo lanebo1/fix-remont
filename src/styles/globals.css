@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-color-back;
+}
+
+main {
+  @apply flex flex-col gap-8 px-14;
+}
+
+input[type='checkbox']:checked {
+  accent-color: #f9af15;
+}
+
+/*# sourceMappingURL=globals.css.map */
