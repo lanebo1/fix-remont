@@ -34,10 +34,20 @@ function FaqSection() {
                 8 (800) 000-00-00
               </Link>
               <Link href="#">
-                <Image className="" src={whatsappIco as unknown as string} alt="Whatsapp" width={30} />
+                <Image
+                  className=""
+                  src={whatsappIco as unknown as string}
+                  alt="Whatsapp"
+                  width={30}
+                />
               </Link>
               <Link href="#">
-                <Image className="" src={telegramIco as unknown as string} alt="Telegram" width={30} />
+                <Image
+                  className=""
+                  src={telegramIco as unknown as string}
+                  alt="Telegram"
+                  width={30}
+                />
               </Link>
             </div>
           </div>

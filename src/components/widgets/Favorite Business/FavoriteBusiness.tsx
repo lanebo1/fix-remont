@@ -72,7 +72,12 @@ function FavoriteBusiness() {
           <Image alt="world_picture" src={currentImg} />
           <div className="relative bottom-14 left-4 flex w-28 items-center justify-around">
             <button className="border-none bg-transparent" onClick={moveLeft}>
-              <Image alt="move left" src={movingArrow as unknown as string} width={40} height={40} />
+              <Image
+                alt="move left"
+                src={movingArrow as unknown as string}
+                width={40}
+                height={40}
+              />
             </button>
             <button className="border-none bg-transparent" onClick={moveRight}>
               <Image
