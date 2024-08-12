@@ -80,7 +80,10 @@ function About() {
 
       <Responsibility />
 
-      <RiskSlide button_text="Рассчитать стоимость" background={materialsImg as unknown as string} />
+      <RiskSlide
+        button_text="Рассчитать стоимость"
+        background={materialsImg as unknown as string}
+      />
 
       <SocialMedia />
 
